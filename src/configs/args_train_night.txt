@@ -1,0 +1,26 @@
+--bs 1
+--dataset g2d
+--lr 0.00005
+--wd 0.01
+--div_factor 1
+--final_div_factor 10
+--epochs 200
+--workers 11
+--name DPT_gated_RGB
+--n_bins 256
+--norm=linear
+--w_chamfer 0.0
+--data_path /mnt/dev/datasets/gated2depth/data/real/
+--gt_path /mnt/dev/datasets/gated2depth/data/real/ft/dror_ld_t_npz/
+--filenames_file /mnt/dev/datasets/gated2depth/data/real/splits/real_train_night.txt
+--input_height 420
+--input_width 1280
+--min_depth 1.0
+--max_depth 150.0
+--data_path_eval /mnt/dev/datasets/gated2depth/data/real/
+--gt_path_eval /mnt/dev/datasets/gated2depth/data/real/ft/dror_ld_t_npz/
+--filenames_file_eval /mnt/dev/datasets/gated2depth/data/real/splits/real_test_night.txt
+--min_depth_eval 1.0
+--max_depth_eval 80.0
+--same-lr
+--gpu 0

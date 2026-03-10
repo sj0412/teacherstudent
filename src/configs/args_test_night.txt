@@ -1,0 +1,2 @@
+-ifigs/input_night
+-ofigs/test_output_ablation_night
